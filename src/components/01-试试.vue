@@ -3,10 +3,8 @@
 <span>{{msg}}</span>
 <p>{{age}}</p>
 <p>{{gender}}</p>
-
 </div>
 </template>
-
 <script>
 export default {
   data () {
