@@ -4,8 +4,8 @@ import Vue from 'vue'
 // 入口函数中引用相关的vue
 // import haha from './components/01-试试.vue'
 // import haha from './components/02-bind指令.vue'
-
-import haha from './components/04.model.vue'
+// import haha from './components/04.model.vue'
+import haha from './components/05-案例.vue'
 
 Vue.config.productionTip = false
 
