@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+</body>
+
+<script>
+   let shuju=[
+        {
+          id: '1',
+          bname: '大众',
+          time: new Date()
+        },
+        {
+          id: '2',
+          bname: 'QQ',
+          time: new Date()
+        },
+        {
+          id: '3',
+          bname: '比亚迪',
+          time: new Date()
+        }
+      ]
+    let  usersearch='大众'
+   let hh= shuju.filter(needdata)
+      function needdata (data) {
+        // console.log(data);
+        // console.log(data.bname == usersearch);
+        return data.bname == usersearch
+
+      }
+      console.log(hh);
+
+</script>
+</html>
